@@ -48,7 +48,7 @@ def save_to_csv(name,email,cnic,contact,age,gender,event_type):
 
 with tab1:
     st.title("Even Registration From")
-    
+
     with  st.form("Even Registration From"):
         #gen=pd.DataFrame({"Gend":[]})
         name=st.text_input("Name",placeholder="Enter your Full Name")
